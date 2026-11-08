@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "home": "홈",
+    "news": "뉴스",
+    "portfolio": "포트폴리오",
+    "resume": "이력서",
+    "contact": "연락처"
+  },
+  "home": {
+    "title": "홈",
+    "subtitle": "내 포트폴리오에 오신 것을 환영합니다."
+  }
+}

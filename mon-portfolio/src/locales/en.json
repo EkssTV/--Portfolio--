@@ -1,0 +1,13 @@
+{
+  "navbar": {
+    "home": "Home",
+    "news": "News",
+    "portfolio": "Portfolio",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Home",
+    "subtitle": "Welcome to my portfolio."
+  }
+}
