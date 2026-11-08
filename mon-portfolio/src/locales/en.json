@@ -8,7 +8,21 @@
   },
   "home": {
     "title": "Home",
-    "subtitle": "Welcome to my portfolio."
+    "subtitle": "Welcome to my portfolio.",
+    "latest_news": "Latest news",
+    "news_placeholder": "My latest projects and articles will appear here...",
+    "about_me": "In short",
+    "download_cv": "Download my Resume",
+    "titleMat":"IT Student EPHEC | Development, Data & AI",
+    "fastResume":"IT student passionate about Development, Data and AI, with a strong creative and human‑centered mindset."
+  },
+"carousel": {
+    "slide1_title": "Passionate Digital Creator",
+    "slide1_subtitle": "A technological curiosity to build and shape new experiences.",
+    "slide2_title": "Globally Minded",
+    "slide2_subtitle": "Continuously learning English and Korean to broaden my horizons.",
+    "slide3_title": "The Climbing Mindset",
+    "slide3_subtitle": "A daily lifestyle: finding balance, pushing limits, and solving problems."
   },
   "news": {
     "title": "News",

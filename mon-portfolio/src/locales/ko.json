@@ -8,7 +8,21 @@
   },
   "home": {
     "title": "홈",
-    "subtitle": "내 포트폴리오에 오신 것을 환영합니다."
+    "subtitle": "내 포트폴리오에 오신 것을 환영합니다.",
+    "latest_news": "최근 소식",
+    "news_placeholder": "최근 프로젝트와 기사가 여기에 표시됩니다...",
+    "about_me": "요약",
+    "download_cv": "이력서 다운로드",
+    "titleMat" :"IT 전공 학생 | 개발·데이터·AI ",
+    "fastResume":"개발, 데이터, AI에 열정을 가진 창의적이고 인간 중심적인 IT 전공 학생입니다."
+  },
+"carousel": {
+    "slide1_title": "디지털 창작에 대한 열정",
+    "slide1_subtitle": "새로운 경험을 구축하고 구현하려는 기술적 호기심.",
+    "slide2_title": "글로벌 마인드",
+    "slide2_subtitle": "시야를 넓히기 위한 영어와 한국어의 지속적인 학습.",
+    "slide3_title": "클라이밍 마인드셋",
+    "slide3_subtitle": "균형 찾기, 한계 극복, 문제 해결을 일상화하는 라이프스타일."
   },
   "news": {
     "title": "뉴스",

@@ -8,7 +8,21 @@
   },
   "home": {
     "title": "Accueil",
-    "subtitle": "Bienvenue sur mon portfolio."
+    "subtitle": "Bienvenue sur mon portfolio.",
+    "latest_news": "Dernières actualités",
+    "news_placeholder": "Mes derniers projets et articles apparaîtront ici...",
+    "about_me": "En bref",
+    "download_cv": "Télécharger mon CV",
+    "titleMat": "Étudiant en informatique | Développement, Réseau,Data & IA ",
+    "fastResume": "Étudiant en IT passionné par le développement, la data et l’IA, avec un esprit créatif et orienté humain. "
+  },
+"carousel": {
+    "slide1_title": "Créateur numérique passionné",
+    "slide1_subtitle": "Une curiosité technologique pour concevoir et modeler de nouvelles expériences.",
+    "slide2_title": "Profil international",
+    "slide2_subtitle": "Apprentissage continu de l'anglais et du coréen pour élargir mes horizons.",
+    "slide3_title": "L'esprit de l'escalade",
+    "slide3_subtitle": "Un mode de vie au quotidien : recherche d'équilibre, dépassement de soi et résolution de problèmes."
   },
   "news": {
     "title": "Actualités",

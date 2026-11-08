@@ -28,7 +28,7 @@ function App() {
         
         {/* Un petit footer discret en bas */}
         <footer className="py-6 text-center text-sm text-slate-400">
-          © {new Date().getFullYear()} Matthieu - Construit avec React & Tailwind
+          © {new Date().getFullYear()} Matthieu - Build with React, Vite, Tailwind and more
         </footer>
 
       </div>
