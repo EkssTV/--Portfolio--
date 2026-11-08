@@ -9,5 +9,21 @@
   "home": {
     "title": "홈",
     "subtitle": "내 포트폴리오에 오신 것을 환영합니다."
+  },
+  "news": {
+    "title": "뉴스",
+    "subtitle": "최근 진행 중인 프로젝트와 기술 동향."
+  },
+  "portfolio": {
+    "title": "포트폴리오",
+    "subtitle": "내 작업 갤러리 (프로젝트 카드가 곧 추가됩니다)."
+  },
+  "resume": {
+    "title": "내 경력",
+    "subtitle": "내 경험의 타임라인과 PDF 다운로드 버튼."
+  },
+  "contact": {
+    "title": "연락처",
+    "subtitle": "연락처 양식과 내 소셜 네트워크 링크."
   }
 }

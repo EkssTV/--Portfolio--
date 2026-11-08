@@ -9,5 +9,21 @@
   "home": {
     "title": "Accueil",
     "subtitle": "Bienvenue sur mon portfolio."
+  },
+  "news": {
+    "title": "Actualités",
+    "subtitle": "Mes derniers projets en cours et ma veille technique."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Galerie de mes réalisations (Cartes projets à venir)."
+  },
+  "resume": {
+    "title": "Mon Parcours",
+    "subtitle": "Timeline de mes expériences et bouton de téléchargement PDF."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Formulaire et liens vers mes réseaux."
   }
 }

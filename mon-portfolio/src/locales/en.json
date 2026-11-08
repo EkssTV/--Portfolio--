@@ -9,5 +9,21 @@
   "home": {
     "title": "Home",
     "subtitle": "Welcome to my portfolio."
+  },
+  "news": {
+    "title": "News",
+    "subtitle": "My latest ongoing projects and technical watch."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Gallery of my work (Project cards coming soon)."
+  },
+  "resume": {
+    "title": "My Path",
+    "subtitle": "Timeline of my experiences and PDF download button."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Contact form and links to my social networks."
   }
 }
