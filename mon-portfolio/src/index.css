@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+  /* Ta couleur de base */
+  --color-brand: #3e5c76;
+  
+  /* Une version légèrement plus claire pour les effets de survol (hover) des boutons */
+  --color-brand-light: #5a7b99;
+  
+  /* Une version plus foncée pour contraster sur fond blanc */
+  --color-brand-dark: #294054;
+}
+
+/* On s'assure que le fond global est bien blanc cassé/très clair, et le texte sombre */
+body {
+  @apply bg-slate-50 text-slate-900;
+}
