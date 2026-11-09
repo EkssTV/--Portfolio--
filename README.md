@@ -80,7 +80,6 @@ npm run dev
 ## 🔮 Évolutions futures (V2)
 - [ ] Remplacer les Mock API par une véritable base de données (PostgreSQL / MongoDB).
 - [ ] Créer un Backend (Node.js/Express) pour servir les données et envoyer de vrais emails via le formulaire de contact.
-- [ ] Ajouter un mode Sombre/Clair (Dark Mode).
 
 ---
 *Développé avec ❤️ par Matthieu*
