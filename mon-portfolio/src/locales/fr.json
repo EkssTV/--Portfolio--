@@ -61,9 +61,19 @@
     "no_analysis": "Aucune analyse réflexive renseignée pour le moment.",
     "no_proof": "Aucune preuve disponible pour le moment."
   },
-  "resume": {
+"resume": {
     "title": "Mon Parcours",
-    "subtitle": "Timeline de mes expériences et bouton de téléchargement PDF."
+    "download_pdf": "Télécharger en PDF",
+    "about_title": "À propos de moi",
+    "about_text": "Étudiant en IT passionné par le développement, la data et l’IA, avec un esprit créatif et orienté humain.\n\nJ’aime transformer des idées en solutions fonctionnelles et intuitives, et explorer comment la technologie peut réellement améliorer l’expérience utilisateur. Que ce soit en codant, en analysant des données ou en expérimentant des outils d’IA, j’apprends vite et je cherche à créer des projets utiles et impactants. Porté par la curiosité, la créativité et l’envie de progresser, je recherche des opportunités pour grandir et contribuer à des technologies qui font la différence.",
+    "skills_tech": "Compétences Techniques",
+    "skills_soft": "Savoir-être (Soft Skills)",
+    "skills_lang": "Langues",
+    "skills_tags": "Technologies & Outils",
+    "timeline_title": "Expériences & Formations",
+    "edu_label": "Formation",
+    "exp_label": "Expérience",
+    "interests_title": "Centres d'intérêt"
   },
 "contact": {
     "title": "Me contacter",

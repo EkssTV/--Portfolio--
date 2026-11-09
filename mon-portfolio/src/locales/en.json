@@ -61,9 +61,19 @@
     "no_analysis": "No reflexive analysis provided yet.",
     "no_proof": "No proofs available at the moment."
   },
-  "resume": {
-    "title": "My Path",
-    "subtitle": "Timeline of my experiences and PDF download button."
+"resume": {
+    "title": "My Resume",
+    "download_pdf": "Download PDF",
+    "about_title": "About me",
+    "about_text": "IT student passionate about Development, Data and AI, with a strong creative and human-centered mindset.\n\nI love turning ideas into functional, intuitive solutions and exploring how technology can genuinely improve user experience. Whether I’m coding, analyzing data or experimenting with AI tools, I enjoy learning fast and building projects that are both impactful and meaningful. Driven by curiosity, creativity and continuous improvement, I’m always looking for opportunities to grow and contribute to tech that makes a difference.",
+    "skills_tech": "Technical Skills",
+    "skills_soft": "Soft Skills",
+    "skills_lang": "Languages",
+    "skills_tags": "Technologies & Tools",
+    "timeline_title": "Experience & Education",
+    "edu_label": "Education",
+    "exp_label": "Experience",
+    "interests_title": "Interests"
   },
 "contact": {
     "title": "Contact me",
