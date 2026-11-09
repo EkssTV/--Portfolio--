@@ -24,20 +24,66 @@
     "slide3_title": "The Climbing Mindset",
     "slide3_subtitle": "A daily lifestyle: finding balance, pushing limits, and solving problems."
   },
-  "news": {
+"news": {
     "title": "News",
-    "subtitle": "My latest ongoing projects and technical watch."
+    "subtitle": "My latest ongoing projects and technical watch.",
+    "search": "Search for a project, a tag...",
+    "category_all": "All",
+    "sort_newest": "Newest first",
+    "sort_oldest": "Oldest first",
+    "featured_title": "Featured",
+    "all_articles_title": "All articles",
+    "no_results": "No results match your search.",
+    "load_more": "Load more articles",
+    "view_live": "View site"
   },
-  "portfolio": {
-    "title": "Portfolio",
-    "subtitle": "Gallery of my work (Project cards coming soon)."
+"portfolio": {
+    "title": "Activity Portfolio",
+    "activities_count": "referenced activity(ies)",
+    "export_csv": "Export (CSV)",
+    "search_placeholder": "Search for an activity or location...",
+    "theme_all": "All themes",
+    "view_table": "Table",
+    "view_card": "Cards",
+    "no_results": "No items match your search.",
+    "th_theme": "Theme",
+    "th_activity": "Activity",
+    "th_location": "Location",
+    "th_date": "Date",
+    "th_hours_val": "Valued hours",
+    "th_hours_real": "Real hours",
+    "th_links": "Links",
+    "label_val": "Valued",
+    "label_real": "Real",
+    "total": "Total",
+    "btn_proofs": "Proofs",
+    "btn_analysis": "Analysis",
+    "no_analysis": "No reflexive analysis provided yet.",
+    "no_proof": "No proofs available at the moment."
   },
   "resume": {
     "title": "My Path",
     "subtitle": "Timeline of my experiences and PDF download button."
   },
-  "contact": {
-    "title": "Contact",
-    "subtitle": "Contact form and links to my social networks."
+"contact": {
+    "title": "Contact me",
+    "subtitle": "A question, an opportunity, or just want to chat? Feel free to reach out!",
+    "availability": "Currently open to new opportunities",
+    "form_name": "Your name",
+    "form_email": "Your email address",
+    "form_subject": "Subject",
+    "form_message": "Your message...",
+    "form_send": "Send message",
+    "form_sending": "Sending...",
+    "form_success": "Message sent successfully! I will reply very soon.",
+    "form_err_req": "This field is required.",
+    "form_err_email": "Invalid email address.",
+    "copy_email": "Copy my email",
+    "copied": "Copied!",
+    "subject_job": "Job Offer",
+    "subject_freelance": "Freelance Project",
+    "subject_chat": "Just to chat",
+    "other_sites_title": "My other spaces",
+    "other_sites_desc": "Discover my passions through my other websites."
   }
 }

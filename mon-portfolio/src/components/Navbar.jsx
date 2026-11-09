@@ -27,7 +27,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
         {/* Logo / Nom */}
         <div className="text-xl font-bold text-slate-900 tracking-tight">
-          Matthieu<span className="text-brand">.</span>
+          Matthieu<span className="text-brand">.dcr</span>
         </div>
 
         {/* Liens de navigation avec la fonction de traduction t() */}

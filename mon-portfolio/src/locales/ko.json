@@ -24,20 +24,66 @@
     "slide3_title": "클라이밍 마인드셋",
     "slide3_subtitle": "균형 찾기, 한계 극복, 문제 해결을 일상화하는 라이프스타일."
   },
-  "news": {
+"news": {
     "title": "뉴스",
-    "subtitle": "최근 진행 중인 프로젝트와 기술 동향."
+    "subtitle": "최근 진행 중인 프로젝트와 기술 동향.",
+    "search": "프로젝트, 태그 검색...",
+    "category_all": "전체",
+    "sort_newest": "최신순",
+    "sort_oldest": "오래된순",
+    "featured_title": "주요 기사",
+    "all_articles_title": "모든 기사",
+    "no_results": "검색 결과가 없습니다.",
+    "load_more": "기사 더보기",
+    "view_live": "사이트 보기"
   },
-  "portfolio": {
-    "title": "포트폴리오",
-    "subtitle": "내 작업 갤러리 (프로젝트 카드가 곧 추가됩니다)."
+"portfolio": {
+    "title": "활동 포트폴리오",
+    "activities_count": "개의 등록된 활동",
+    "export_csv": "내보내기 (CSV)",
+    "search_placeholder": "활동 또는 장소 검색...",
+    "theme_all": "모든 테마",
+    "view_table": "테이블",
+    "view_card": "카드",
+    "no_results": "검색 조건에 맞는 항목이 없습니다.",
+    "th_theme": "테마",
+    "th_activity": "활동",
+    "th_location": "장소",
+    "th_date": "날짜",
+    "th_hours_val": "인정 시간",
+    "th_hours_real": "실제 시간",
+    "th_links": "링크",
+    "label_val": "인정됨",
+    "label_real": "실제",
+    "total": "총계",
+    "btn_proofs": "증명",
+    "btn_analysis": "분석",
+    "no_analysis": "아직 작성된 성찰 분석이 없습니다.",
+    "no_proof": "현재 사용 가능한 증명 자료가 없습니다."
   },
   "resume": {
     "title": "내 경력",
     "subtitle": "내 경험의 타임라인과 PDF 다운로드 버튼."
   },
-  "contact": {
-    "title": "연락처",
-    "subtitle": "연락처 양식과 내 소셜 네트워크 링크."
+"contact": {
+    "title": "연락하기",
+    "subtitle": "질문, 제안 또는 그냥 이야기하고 싶으신가요? 편하게 연락주세요!",
+    "availability": "현재 새로운 기회를 찾고 있습니다",
+    "form_name": "이름",
+    "form_email": "이메일 주소",
+    "form_subject": "주제",
+    "form_message": "메시지...",
+    "form_send": "메시지 보내기",
+    "form_sending": "전송 중...",
+    "form_success": "메시지가 성공적으로 전송되었습니다! 곧 답변 드리겠습니다.",
+    "form_err_req": "필수 입력 항목입니다.",
+    "form_err_email": "유효하지 않은 이메일 주소입니다.",
+    "copy_email": "이메일 복사",
+    "copied": "복사됨!",
+    "subject_job": "채용 제안",
+    "subject_freelance": "프리랜서 프로젝트",
+    "subject_chat": "그냥 이야기하기",
+    "other_sites_title": "나의 다른 공간들",
+    "other_sites_desc": "다른 웹사이트를 통해 저의 관심사를 알아보세요."
   }
 }

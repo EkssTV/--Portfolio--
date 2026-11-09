@@ -24,20 +24,66 @@
     "slide3_title": "L'esprit de l'escalade",
     "slide3_subtitle": "Un mode de vie au quotidien : recherche d'équilibre, dépassement de soi et résolution de problèmes."
   },
-  "news": {
+"news": {
     "title": "Actualités",
-    "subtitle": "Mes derniers projets en cours et ma veille technique."
+    "subtitle": "Mes derniers projets en cours et ma veille technique.",
+    "search": "Rechercher un projet, un tag...",
+    "category_all": "Tous",
+    "sort_newest": "Plus récents d'abord",
+    "sort_oldest": "Plus anciens d'abord",
+    "featured_title": "À la une",
+    "all_articles_title": "Tous les articles",
+    "no_results": "Aucun résultat ne correspond à votre recherche.",
+    "load_more": "Charger plus d'articles",
+    "view_live": "Voir le site"
   },
-  "portfolio": {
-    "title": "Portfolio",
-    "subtitle": "Galerie de mes réalisations (Cartes projets à venir)."
+"portfolio": {
+    "title": "Portfolio d'activités",
+    "activities_count": "activité(s) référencée(s)",
+    "export_csv": "Exporter (CSV)",
+    "search_placeholder": "Rechercher une activité ou un lieu...",
+    "theme_all": "Tous les thèmes",
+    "view_table": "Tableau",
+    "view_card": "Cartes",
+    "no_results": "Aucun élément ne correspond à votre recherche.",
+    "th_theme": "Thème",
+    "th_activity": "Activité",
+    "th_location": "Lieu",
+    "th_date": "Date",
+    "th_hours_val": "Heures valorisées",
+    "th_hours_real": "Heures réelles",
+    "th_links": "Liens",
+    "label_val": "Valorisées",
+    "label_real": "Réelles",
+    "total": "Total",
+    "btn_proofs": "Preuves",
+    "btn_analysis": "Analyse",
+    "no_analysis": "Aucune analyse réflexive renseignée pour le moment.",
+    "no_proof": "Aucune preuve disponible pour le moment."
   },
   "resume": {
     "title": "Mon Parcours",
     "subtitle": "Timeline de mes expériences et bouton de téléchargement PDF."
   },
-  "contact": {
-    "title": "Contact",
-    "subtitle": "Formulaire et liens vers mes réseaux."
+"contact": {
+    "title": "Me contacter",
+    "subtitle": "Une question, une opportunité ou juste envie de discuter ? N'hésitez pas !",
+    "availability": "Actuellement à l'écoute d'opportunités",
+    "form_name": "Votre nom",
+    "form_email": "Votre adresse email",
+    "form_subject": "Sujet",
+    "form_message": "Votre message...",
+    "form_send": "Envoyer le message",
+    "form_sending": "Envoi en cours...",
+    "form_success": "Message envoyé avec succès ! Je vous réponds très vite.",
+    "form_err_req": "Ce champ est requis.",
+    "form_err_email": "Adresse email invalide.",
+    "copy_email": "Copier mon email",
+    "copied": "Copié !",
+    "subject_job": "Offre d'emploi",
+    "subject_freelance": "Projet Freelance",
+    "subject_chat": "Juste pour discuter",
+    "other_sites_title": "Mes autres espaces",
+    "other_sites_desc": "Découvrez mes passions à travers mes autres sites."
   }
 }
