@@ -8,18 +8,18 @@ import maPhoto from '../assets/photo.png'
 import monCV from '../assets/cv-matthieu.pdf'
 
 export default function Home() {
-  const { t } = useTranslation()
+  // 1. On extrait i18n en plus de t
+  const { t, i18n } = useTranslation()
   
-  // États pour gérer les données et le chargement
   const [news, setNews] = useState([])
   const [loading, setLoading] = useState(true)
 
-  // Appel au service lors du chargement de la page
   useEffect(() => {
     const getNews = async () => {
+      setLoading(true) // On remet le loading à true quand on change de langue
       try {
-        // On attend que la fausse API nous réponde
-        const data = await fetchLatestNews()
+        // 2. On passe la langue actuelle à l'API
+        const data = await fetchLatestNews(i18n.language)
         setNews(data)
       } catch (error) {
         console.error("Erreur de chargement", error)
@@ -29,7 +29,7 @@ export default function Home() {
     }
     
     getNews()
-  }, []) // Le tableau vide [] signifie "exécuter une seule fois au montage"
+  }, [i18n.language])// Le tableau vide [] signifie "exécuter une seule fois au montage"
 
   return (
     <div className="max-w-6xl mx-auto space-y-12">
@@ -79,11 +79,11 @@ export default function Home() {
             
             <div>
               <h3 className="font-bold text-xl text-slate-900">Matthieu</h3>
-              <p className="text-sm text-brand font-medium mt-1">Développeur Front-End</p>
+              <p className="text-sm text-brand font-medium mt-1">{t('home.titleMat', 'Étudiant en informatique | Développement, Réseau,Data & IA')}</p>
             </div>
 
             <p className="text-sm text-slate-600">
-              Création d'interfaces web modernes, performantes et accessibles. Toujours prêt pour un nouveau défi technique.
+              {t('home.fastResume', 'Étudiant en IT passionné par le développement, la data et l’IA, avec un esprit créatif et orienté humain.')}
             </p>
             
             <a href={monCV} download="CV_Matthieu.pdf" className="w-full py-2.5 mt-2 bg-brand text-white rounded-lg hover:bg-brand-dark transition-all transform hover:-translate-y-0.5 shadow-md text-sm font-semibold flex items-center justify-center gap-2">

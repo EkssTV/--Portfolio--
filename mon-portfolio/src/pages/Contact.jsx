@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { sendContactMessage } from '../services/contactService'
 
 export default function Contact() {
   const { t } = useTranslation()
@@ -9,6 +10,7 @@ export default function Contact() {
   const [errors, setErrors] = useState({})
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
+  const [submitError, setSubmitError] = useState(null)
   
   // --- Fonctionnalité Copier l'email ---
   const [emailCopied, setEmailCopied] = useState(false)
@@ -39,21 +41,39 @@ export default function Contact() {
     return Object.keys(newErrors).length === 0
   }
 
-  const handleSubmit = (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault()
     if (!validateForm()) return
 
     setIsSubmitting(true)
+    setSubmitError(null) // On réinitialise l'erreur à chaque tentative
     
-    // Simulation d'un envoi vers un backend (API)
-    setTimeout(() => {
-      setIsSubmitting(false)
+    try {
+      // On formate les données pour qu'elles correspondent EXACTEMENT au DTO de NestJS
+      const payload = {
+        name: formData.name,
+        email: formData.email,
+        // On intègre le sujet au début du message
+        message: formData.subject 
+          ? `[Sujet : ${formData.subject}]\n\n${formData.message}`
+          : formData.message
+      }
+
+      // Appel de notre vraie API
+      await sendContactMessage(payload)
+
       setIsSuccess(true)
       setFormData({ name: '', email: '', subject: '', message: '' })
       
       // Le message de succès disparaît après 5 secondes
       setTimeout(() => setIsSuccess(false), 5000)
-    }, 1500)
+      
+    } catch (error) {
+      console.error(error)
+      setSubmitError(error.message)
+    } finally {
+      setIsSubmitting(false)
+    }
   }
 
   const handleCopyEmail = () => {
@@ -83,7 +103,13 @@ export default function Contact() {
               <h3 className="text-2xl font-bold text-slate-900 mb-2">{t('contact.form_success')}</h3>
             </div>
           )}
+        {submitError && (
+              <div className="mb-6 p-4 bg-red-50 border border-red-200 text-red-600 rounded-xl text-sm font-medium animate-fade-in">
+              {submitError}
+            </div>
+            )}
 
+          <form onSubmit={handleSubmit} className="space-y-6"></form>
           <form onSubmit={handleSubmit} className="space-y-6">
             
             {/* Nom & Email sur la même ligne si écran large */}

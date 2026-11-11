@@ -4,7 +4,7 @@ import NewsCard from '../components/NewsCard'
 import { fetchAllNews } from '../services/newsService'
 
 export default function News() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [news, setNews] = useState([])
   const [loading, setLoading] = useState(true)
 
@@ -16,7 +16,7 @@ export default function News() {
   useEffect(() => {
     const getNews = async () => {
       try {
-        const data = await fetchAllNews()
+        const data = await fetchAllNews(i18n.language)
         setNews(data)
       } catch (error) {
         console.error("Erreur", error)
@@ -25,7 +25,7 @@ export default function News() {
       }
     }
     getNews()
-  }, [])
+  }, [i18n.language])
 
   const categories = useMemo(() => {
     const cats = news.map(item => item.category).filter(Boolean)

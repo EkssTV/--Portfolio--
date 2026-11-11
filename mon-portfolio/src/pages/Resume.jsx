@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
-import { fetchResumeData, techTags } from '../services/resumeService'
+import { fetchResumeData } from '../services/resumeService'
 import monCV from '../assets/cv-matthieu.pdf'
 import maPhoto from '../assets/photo.png'
 
@@ -34,7 +34,7 @@ const SkillBar = ({ name, level, description }) => {
 
 // --- COMPOSANT 2 : La carte Timeline (Accordéon) ---
 const TimelineItem = ({ title, organization, period, description, highlights, type }) => {
-  const { t } = useTranslation()
+  const { t} = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
   
   const isEdu = type === 'edu'
@@ -86,12 +86,12 @@ const TimelineItem = ({ title, organization, period, description, highlights, ty
 
 // --- COMPOSANT PRINCIPAL : La Page Resume ---
 export default function Resume() {
-  const { t } = useTranslation()
+  const { t,i18n } = useTranslation()
   const [data, setData] = useState(null)
   
   useEffect(() => {
-    fetchResumeData().then(res => setData(res))
-  }, [])
+    fetchResumeData(i18n.language).then(res => setData(res))
+  }, [i18n.language])
 
   if (!data) {
     return (
@@ -190,7 +190,7 @@ export default function Resume() {
           <div className="bg-brand/10 p-8 rounded-3xl border border-brand/20">
             <h2 className="text-xl font-bold text-brand-dark mb-4">{t('resume.skills_tags')}</h2>
             <div className="flex flex-wrap gap-2">
-              {techTags.map(tag => (
+              {data.techTags.map(tag => (
                 <span key={tag} className="px-3 py-1 bg-white text-brand-dark text-xs font-bold rounded-full shadow-sm">
                   {tag}
                 </span>

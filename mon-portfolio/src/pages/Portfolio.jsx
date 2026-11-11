@@ -6,7 +6,7 @@ import ProofModal from "../components/ProofModal"
 import { fetchPortfolioItems } from "../services/portfolioService"
 
 export default function Portfolio() {
-  const { t } = useTranslation()
+  const { t,i18n } = useTranslation()
   const [items, setItems] = useState([])
   const [loading, setLoading] = useState(true)
   const [view, setView] = useState("table")
@@ -15,11 +15,11 @@ export default function Portfolio() {
   const [proofItem, setProofItem] = useState(null)
 
   useEffect(() => {
-    fetchPortfolioItems().then(data => {
+    fetchPortfolioItems(i18n.language).then(data => {
       setItems(data)
       setLoading(false)
     })
-  }, [])
+  }, [i18n.language])
 
   const themes = useMemo(() => ["ALL", ...new Set(items.map(i => i.theme))], [items])
 
