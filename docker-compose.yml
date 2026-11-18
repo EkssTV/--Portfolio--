@@ -1,0 +1,25 @@
+services:
+  api:
+    build:
+      context: ./mon-api
+      dockerfile: Dockerfile
+    container_name: portfolio-api
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - ./mon-api/.env # Récupère ton DATABASE_URL Supabase
+
+  web:
+    build:
+      context: ./mon-portfolio # <-- Adapte ce nom au dossier de ton React
+      dockerfile: Dockerfile
+      args:
+        # En local pour tester, laisse localhost. Sur le VPS, tu mettras ton domaine/IP
+        VITE_API_URL: http://localhost:3000
+    container_name: portfolio-web
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    depends_on:
+      - api
