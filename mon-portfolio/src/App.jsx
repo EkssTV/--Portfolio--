@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import News from './pages/News'
@@ -8,7 +8,7 @@ import Contact from './pages/Contact'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* On applique notre fond clair global ici */}
       <div className="min-h-screen bg-slate-50 text-slate-900 font-sans flex flex-col">
         
@@ -32,7 +32,7 @@ function App() {
         </footer>
 
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 

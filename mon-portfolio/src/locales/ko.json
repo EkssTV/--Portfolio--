@@ -94,6 +94,9 @@
     "subject_freelance": "프리랜서 프로젝트",
     "subject_chat": "그냥 이야기하기",
     "other_sites_title": "나의 다른 공간들",
-    "other_sites_desc": "다른 웹사이트를 통해 저의 관심사를 알아보세요."
+    "other_sites_desc": "다른 웹사이트를 통해 저의 관심사를 알아보세요.",
+    "under_construction_title": "문의 양식 잠시 휴식 중 ",
+"under_construction_desc": "현재 포트폴리오는 백엔드 서버 없이 100% 정적 웹사이트로 운영되고 있어 문의 양식이 일시적으로 준비 중입니다. 그동안 이메일로 직접 연락해 주세요!",
+"send_direct_email": "이메일로 직접 문의하기"
   }
 }

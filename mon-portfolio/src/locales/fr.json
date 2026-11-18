@@ -94,6 +94,9 @@
     "subject_freelance": "Projet Freelance",
     "subject_chat": "Juste pour discuter",
     "other_sites_title": "Mes autres espaces",
-    "other_sites_desc": "Découvrez mes passions à travers mes autres sites."
+    "other_sites_desc": "Découvrez mes passions à travers mes autres sites.",
+    "under_construction_title": "Formulaire en pause café ",
+"under_construction_desc": "Le formulaire de contact est temporairement en construction car cette version du portfolio tourne en mode 100 % statique sans serveur backend. En attendant, vous pouvez m'écrire directement par email !",
+"send_direct_email": "M'envoyer un email directement"
   }
 }

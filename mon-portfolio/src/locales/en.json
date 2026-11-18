@@ -94,6 +94,9 @@
     "subject_freelance": "Freelance Project",
     "subject_chat": "Just to chat",
     "other_sites_title": "My other spaces",
-    "other_sites_desc": "Discover my passions through my other websites."
+    "other_sites_desc": "Discover my passions through my other websites.",
+    "under_construction_title": "Form on a coffee break ",
+"under_construction_desc": "The contact form is temporarily under construction because this version of the portfolio runs in 100% static mode without a backend server. In the meantime, feel free to email me directly!",
+"send_direct_email": "Send me an email directly"
   }
 }
